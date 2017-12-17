@@ -1,0 +1,46 @@
+{
+	"id": "dp",
+	"nome": "Daniele",
+	"cognome": "Pompa",
+	"logo": [{
+		"esteso": "../img/dp/logo.png",
+		"ridotto": "../img/dp/logofull.png"
+	}],
+	"foto": "../img/dp/foto.jpg",
+	"eta": 30,
+	"nazionalita": "Italiana",
+	"professione": "Interaction Designer",
+	"motto": "Fatti non pugnette",
+	"descrizione": "fatti i cazzi tuoi",
+	"landing": [{
+		"type": "img",
+		"url": "../img/dp/bg.png"
+	}],
+	"cv": "../cv/dp.pdf",
+	"css": "../cv/dp.css",
+	"numerotel": "3487420285",
+	"mail": "dnlpmp@gmail.com",
+	"social": [{
+			"name": "facebook",
+			"icon": "url",
+			"url": "daniele21pmp"
+		},
+		{
+			"name": "linkedin",
+			"icon": "url",
+			"url": "/daniele-pompa-b06463100/"
+		},
+		{
+			"name": "behance",
+			"icon": "url",
+			"url": " "
+		}
+	],
+	"project": [{
+			"esteso": "url"
+		},
+		{
+			"ridotto": "url"
+		}
+	]
+}
