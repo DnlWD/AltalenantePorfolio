@@ -2,22 +2,22 @@
 	"id": "dp",
 	"nome": "Daniele",
 	"cognome": "Pompa",
-	"logo": [{
-		"esteso": "../img/dp/logo.png",
-		"ridotto": "../img/dp/logofull.png"
-	}],
-	"foto": "../img/dp/foto.jpg",
+	"logo": {
+		"esteso": "src/img/dp/logofull.png",
+		"ridotto": "src/img/dp/logo.png"
+	},
+	"foto": "src/img/dp/foto.jpg",
 	"eta": 30,
 	"nazionalita": "Italiana",
 	"professione": "Interaction Designer",
 	"motto": "Fatti non pugnette",
 	"descrizione": "fatti i cazzi tuoi",
-	"landing": [{
+	"landing": {
 		"type": "img",
-		"url": "../img/dp/bg.png"
-	}],
-	"cv": "../cv/dp.pdf",
-	"css": "../cv/dp.css",
+		"url": "src/img/dp/bg.png"
+	},
+	"cv": "src/cv/dp.pdf",
+	"css": "src/css/dp.css",
 	"numerotel": "3487420285",
 	"mail": "dnlpmp@gmail.com",
 	"social": [{
@@ -37,10 +37,27 @@
 		}
 	],
 	"project": [{
-			"esteso": "url"
-		},
-		{
-			"ridotto": "url"
-		}
-	]
+		"name": "INNOVATION FERRERO",
+		"tag": "web-design",
+		"cover": "src/img/dp/project/001.jpeg",
+		"descrizione": "Simulazione di restyling in un gruppo di 4 persone con ruoli ben definiti, utilizzando come caso studio l’ attuale sito: www.ferrero.it. Ho realizzato un Diagramma di Gantt per gestire le tempistiche del team. Raccolto i dati per l’ analisi del Brand, il comportamento sui Social e l’ analisi Competitor diretti e indiretti.Gestito l’ User Test, scegliendo le Personas, le Task e analizzando i risultati finali.",
+		"data": "7/7/2016",
+		"cliente": "Andrea De Rosa"
+	},
+	{
+		"name": "PANNELLI DUOMO ORVIETO",
+		"tag": "grafica",
+		"cover": "src/img/dp/project/002.jpeg",
+		"descrizione": "In occasione dei lavori di restauro della facciata del Duomo di Orvieto mi è stato commissionata la realizzazione di 8 pannelli (cm 150x100) informativi inerenti al Duomo e ai lavori eseguiti. All’interno è stato inserito l’esploso del duomo, molte macro dei mosaici realizzate grazie alla possibilità di fotografare da vicino il tutto tramite il ponteggio",
+		"data": "10/10/2015",
+		"cliente": "Ma.Co.Ré snc"
+	},
+	{
+		"name": "INNOVATION FERRERO",
+		"tag": "fotografia",
+		"cover": "src/img/dp/project/001.jpeg",
+		"descrizione": "Oltre alle competenze avanzate di fotografia ho le capacità di realizzare foto 360° e Virtual Tour",
+		"data": "1/7/2014",
+		"cliente": "Arte Gene"
+	}]
 }

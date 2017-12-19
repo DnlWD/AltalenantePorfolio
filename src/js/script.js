@@ -12,3 +12,6 @@ $('.filters-button-group button').on('click', function () {
   });
 });
 
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
