@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.png">
     <!-- library css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <!-- my css -->
     <link rel="stylesheet" href="src/css/style.css" id="mystyle">
@@ -53,8 +52,43 @@
         <div id="proj1" class="modal modfull">
             <div class="modal-content animate-top full">
                 <div class="content"> <span onclick="document.getElementById('proj1').style.display='none'" class="pulsante">&times;</span>
-                    <h2>Nuovo Progetto</h2> </div>
+
+                    <!-- PRIMO ELEMENTO -->
+                    <div style="background-image: url(http://iacdesignroma.it/images/blog/impaginazione.jpg); background-repeat: no-repeat; background-size: cover" class="container-fluid d-flex justify-content-center text-center" id="landing">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <h1 style="color: black;">Nome progetto</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECONDO ELEMENTO -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="https://www.romeuracademy.it/wp-content/uploads/2015/10/impaginazione.jpg">
+                            </div>
+                            <div class="col-sm">
+                                <h1 id="nome">Nome</h1>
+                                <p id="descrizione">Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri palesemente poco verosimili.</p>
+                                <h2 style="color: black; text-align: right;" id="data">00.00.2000</h2>
+                                <button id="more">kdk</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TERZO ELEMENTO -->
+                    <div class="container-fluid d-flex justify-content-center text-center">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <div> <img src="https://www.guadagnareconunblog.com/wp-content/uploads/ottimizzare-anteprima-video.jpg"> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
         </div>
 
         <div class="row">
@@ -62,16 +96,14 @@
                 <div class="grid">
                     <div class="grid-item graph">
                         <div class="card" onclick="document.getElementById('proj1').style.display='inline-block'">
-                            <img class="card-img-top" src="https://www.ultimenotizieflash.com/wp-content/gallery/san-valentino-2016-le-immagini-romantiche-da-inviare-su-whatsapp/san-valentino-immagini-romantiche-whatsapp-4.jpg"
-                                alt="Card image cap">
+                            <img class="card-img-top" src="https://www.ultimenotizieflash.com/wp-content/gallery/san-valentino-2016-le-immagini-romantiche-da-inviare-su-whatsapp/san-valentino-immagini-romantiche-whatsapp-4.jpg" alt="Card image cap">
                             <div class="caption">
                                 <h4>Card</h4>
                                 <p>This is a longer.</p>
                             </div>
                             <div class="card-body hidden-desktop">
                                 <h4 class="card-title">Card title that wraps to a new line</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                    This content is a little bit longer.</p>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
@@ -80,12 +112,9 @@
         </div>
     </div>
     <!-- library js -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src "cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
     <!-- my js -->
