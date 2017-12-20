@@ -11,6 +11,6 @@ $.getJSON(URL, function (data) {
   );
   $(".filters-button-group").append('<button class="button is-checked" data-filter="*">tutti</button>');
   for (i = 0; i < tags.length; i++) {
-    $(".filters-button-group").append('<button class="button is-checked" data-filter="' + tags[i] + '">' + tags[i] + '</button>');
+    $(".filters-button-group").append('<button class="button" data-filter="' + tags[i] + '">' + tags[i] + '</button>');
   }
 });
