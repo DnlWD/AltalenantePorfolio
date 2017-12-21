@@ -13,4 +13,12 @@ $.getJSON(URL, function (data) {
   for (i = 0; i < tags.length; i++) {
     $(".filters-button-group").append('<button class="button" data-filter="' + tags[i] + '">' + tags[i] + '</button>');
   }
+  var project = _.map(data.project);
+  for (i = 0; i < project.length; i++) {
+    var cover = "'" + project[i].cover + "'";
+    var name = project[i].name;
+    var tag = project[i].tag;
+    var premuto = "$('#proj').css('display','inline-block'); $('body').css('overflow','hidden');";
+    $(".grid").append('<div class="grid-item ' + tag + '"><div class="card" onclick="' + premuto + '"style="background-image: url(' + cover + ')" ><img class="card-img-top" src=' + cover + ' alt=""><div class="caption d-flex justify-content-center align-items-center flex-column"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around">' + tag + '</ul></div><div class="card-body hidden-desktop text-center"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around"><li>' + tag + '</li></ul></div></div></div>');
+  }
 });
