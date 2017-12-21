@@ -1,0 +1,71 @@
+{
+    "id": "am",
+    "nome": "Arianna",
+    "cognome": "Mereu",
+    "logo": {
+        "esteso": "src/img/am/logofull.png",
+        "ridotto": "src/img/am/logo.png"
+    },
+    "foto": "src/img/am/foto.jpg",
+    "eta": 22,
+    "nazionalita": "Italiana",
+    "professione": "impedita toda la vida",
+    "motto": "Fatti non pugnette",
+    "descrizione": "fatti i cazzi tuoi",
+    "landing": {
+        "type": "img",
+        "url": "src/img/am/bg.png"
+    },
+    "cv": "src/cv/am.pdf",
+    "css": "src/css/am.css",
+    "numerotel": "3487420285",
+    "mail": "arianna.mereu95@gmail.com",
+    "social": [{
+            "name": "facebook",
+            "icon": "url",
+            "url": "daniele21pmp"
+		},
+        {
+            "name": "linkedin",
+            "icon": "url",
+            "url": "/daniele-pompa-b06463100/"
+		},
+        {
+            "name": "behance",
+            "icon": "url",
+            "url": " "
+		}
+	],
+    "project": [{
+            "name": "IMPAGINAZIONE NONE",
+            "tag": "grafica",
+            "cover": "src/img/am/project/001.jpeg",
+            "descrizione": "...",
+            "data": "7/7/2016",
+            "cliente": "Gianna Angelini"
+	},
+        {
+            "name": "TITOLO TESTA POVERO DIAVOLO",
+            "tag": "video",
+            "cover": "src/img/am/project/002.jpeg",
+            "descrizione": "...",
+            "data": "10/10/2015",
+            "cliente": "Studiosi Italiani"
+	},
+        {
+            "name": "CONQUENDAM",
+            "tag": "web-design",
+            "cover": "src/img/am/project/004.jpeg",
+            "descrizione": "...",
+            "data": "10/10/2015",
+            "cliente": "-"
+	},
+        {
+            "name": "BUTTERFLY",
+            "tag": "video",
+            "cover": "src/img/am/project/003.jpeg",
+            "descrizione": "...",
+            "data": "1/7/2014",
+            "cliente": "-"
+	}]
+}

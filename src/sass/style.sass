@@ -11,27 +11,129 @@ $oppositecolor: #ffffff
 $title: 70px
 $subtitle: 36px
 $paragraph: 18px
+$sectiontitle: 30px
+
+
 
 //globali
 .vh100
     height: 100vh
+.portfolio
+    min-height: 100vh
+    
+//----------------------------------------------------------------------
 
 //typography
 h1
     font-size: $title
+    //boxtitle
+    background-color: #111
+    color: #fff
+    padding: 18px
+    letter-spacing: 10px
+    //capitalize
+    text-transform: uppercase
+
 h2
     font-size: $subtitle
+    //boxtitle
+    background-color: #111
+    color: #fff
+    padding: 18px
+    letter-spacing: 10px
+    width: 100%
+    //capitalize
+    text-transform: uppercase
 p
     font-size: $paragraph
     font-family: $secondfont
+h3
+    padding: 20px
+    margin-top: 100px
+    font-size: $sectiontitle
+    //boxtitle
+    background-color: #111
+    color: #fff
+    padding: 18px
+    letter-spacing: 10px
+    width: 100%
+    //capitalize
+    text-transform: uppercase
 
+//----------------------------------------------------------------------
+    
 //landing 
 #landing
     height: 94vh
+    background-attachment: fixed
 
 .nav-link:hover
     color: $activecolor
     cursor: pointer
+
+//----------------------------------------------------------------------
+    
+//buttons
+.button 
+    border: none
+    padding: 10px
+    margin-top: 20px
+    letter-spacing: 2px
+    
+    //capitalize
+    text-transform: uppercase
+    
+.button:focus 
+    outline: none
+    
+.button:hover
+    color: #FF0090
+    -webkit-transition: color 1s ease-out
+    -moz-transition: color 1s ease-out
+    -o-transition: color 1s ease-out
+    transition: color 1s ease-out
+    cursor: crosshair
+    
+.is-checked
+    text-decoration: line-through
+    color: #FF0090
+
+//----------------------------------------------------------------------
+    
+//linea span
+span
+    position: relative
+    display: block
+    cursor: pointer
+
+span:before, span:after 
+    content: ''
+    position: absolute
+    width: 0%
+    height: 1px
+    top: 50%
+    margin-top: -0.5px
+    background: #fff
+
+span:before 
+    left: -2.5px
+
+span:after 
+    right: 2.5px
+    background: #fff
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1)
+
+span:hover:before 
+    background: #fff
+    width: 100%
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1)
+
+span:hover:after 
+    background: transparent
+    width: 100%
+    transition: 0s
+
+//----------------------------------------------------------------------
 
 //mansory
 .grid
@@ -48,6 +150,7 @@ p
     height: 300px
 
 .card
+    margin-top: 20px
     position: relative
 
 .caption
@@ -65,6 +168,8 @@ p
 .caption:hover
     opacity: 1
     transition: all 0.1s ease-in
+    cursor: crosshair
+
 
 .hidden-desktop
     opacity: 1
