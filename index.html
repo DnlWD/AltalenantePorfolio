@@ -19,7 +19,7 @@
 <body>
 
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar">
         <a class="navbar-brand" href="#">
             <img src="https://lh3.googleusercontent.com/oKsgcsHtHu_nIkpNd-mNCAyzUD8xo68laRPOfvFuO0hqv6nDXVNNjEMmoiv9tIDgTj8=w170" width="30"
                 height="30" class="d-inline-block align-top" id="logo" alt="...">
@@ -47,51 +47,47 @@
 
         <div id="proj1" class="modal modfull">
             <div class="modal-content animate-top full">
-                <div class="content"> <span onclick="document.getElementById('proj1').style.display='none'" class="pulsante">&times;</span>
+                <div class="content"> <span class="pulsante" onclick="$('#proj1').css('display', 'none');$('body').css('overflow', 'visible');">&times;</span>
 
-                    <!-- PRIMO ELEMENTO -->
-                    <div style="background-image: url(http://iacdesignroma.it/images/blog/impaginazione.jpg); background-repeat: no-repeat; background-size: cover" class="container-fluid d-flex justify-content-center text-center" id="landing">
+                    <!-- header -->
+                    <div class="container-fluid d-flex justify-content-center text-center header">
                         <div class="raw d-flex justify-content-center align-items-center">
                             <div class="col align-self-center">
-                                <h1 style="color: black;">Nome progetto</h1>
+                                <h2 id="nome-proj">Nome progetto</h2>
                             </div>
                         </div>
                     </div>
 
-                    <!-- SECONDO ELEMENTO -->
+                    <!-- description -->
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm">
-                                <img src="https://www.romeuracademy.it/wp-content/uploads/2015/10/impaginazione.jpg">
-                            </div>
-                            <div class="col-sm">
-                                <h1 id="nome">Nome</h1>
+                            <div class="col">
+                                <h2>Nome</h2>
                                 <p id="descrizione">Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri palesemente poco verosimili.</p>
-                                <h2 style="color: black; text-align: right;" id="data">00.00.2000</h2>
+                                <h3 id="data">00.00.2000</h3>
                                 <button id="more">kdk</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- TERZO ELEMENTO -->
+                    <!-- exemple -->
                     <div class="container-fluid d-flex justify-content-center text-center">
                         <div class="raw d-flex justify-content-center align-items-center">
                             <div class="col align-self-center">
-                                <div> <img src="https://www.guadagnareconunblog.com/wp-content/uploads/ottimizzare-anteprima-video.jpg"> </div>
+                                <div> </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
         </div>
 
         <div class="row">
             <div class="col">
                 <div class="grid">
                     <div class="grid-item graph">
-                        <div class="card" onclick="document.getElementById('proj1').style.display='inline-block'">
+                        <div class="card" onclick="$('#proj1').css('display', 'inline-block');$('body').css('overflow', 'hidden');">
                             <img class="card-img-top" src="https://www.ultimenotizieflash.com/wp-content/gallery/san-valentino-2016-le-immagini-romantiche-da-inviare-su-whatsapp/san-valentino-immagini-romantiche-whatsapp-4.jpg" alt="Card image cap">
                             <div class="caption">
                                 <h4>Card</h4>
