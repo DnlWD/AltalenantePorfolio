@@ -45,9 +45,9 @@
             </div>
         </div>
 
-        <div id="proj1" class="modal modfull">
+        <div id="proj" class="modal modfull">
             <div class="modal-content animate-top full">
-                <div class="content"> <span class="pulsante" onclick="$('#proj1').css('display', 'none');$('body').css('overflow', 'visible');">&times;</span>
+                <div class="content"> <span class="pulsante" onclick="$('#proj').css('display', 'none');$('body').css('overflow', 'visible');">&times;</span>
 
                     <!-- header -->
                     <div class="container-fluid d-flex justify-content-center text-center header">
@@ -62,9 +62,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h2>Nome</h2>
+                                <h2>DESCRIZIONE DEL PROGETTO</h2>
                                 <p id="descrizione">Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri palesemente poco verosimili.</p>
-                                <h3 id="data">00.00.2000</h3>
+                                <h3 id="ggmmyy">00.00.2000</h3>
                                 <button id="more">kdk</button>
                             </div>
                         </div>
@@ -79,6 +79,15 @@
                         </div>
                     </div>
 
+                    <!-- client -->
+                    <div class="container-fluid d-flex justify-content-center text-center">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <div id="cliente"> </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -87,19 +96,35 @@
             <div class="col">
                 <div class="grid">
                     <div class="grid-item graph">
-                        <div class="card" onclick="$('#proj1').css('display', 'inline-block');$('body').css('overflow', 'hidden');">
-                            <img class="card-img-top" src="https://www.ultimenotizieflash.com/wp-content/gallery/san-valentino-2016-le-immagini-romantiche-da-inviare-su-whatsapp/san-valentino-immagini-romantiche-whatsapp-4.jpg" alt="Card image cap">
+                        <div class="card" onclick="$('#proj').css('display', 'inline-block');$('body').css('overflow', 'hidden');">
+                            <img class="card-img-top" src="src/img/dp/project/001.jpg" alt="">
                             <div class="caption">
-                                <h4>Card</h4>
-                                <p>This is a longer.</p>
+                                <h4 class="card-title">Card title</h4>
+                                <ul class="tag d-flex flex-row justify-content-around"><li>tag</li><li>tag2</li><li>tag3</li></ul>
                             </div>
-                            <div class="card-body hidden-desktop">
-                                <h4 class="card-title">Card title that wraps to a new line</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card-body hidden-desktop text-center">
+                                <h4 class="card-title">Card title</h4>
+                                <ul class="tag d-flex flex-row justify-content-around"><li>tag</li><li>tag2</li><li>tag3</li></ul>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="grid">
+                        <div class="grid-item graph">
+                            <div class="card" onclick="$('#proj').css('display', 'inline-block');$('body').css('overflow', 'hidden');">
+                                <img class="card-img-top" src="src/img/dp/project/001.jpg" alt="">
+                                <div class="caption">
+                                    <h4 class="card-title">Card title</h4>
+                                    <ul class="tag d-flex flex-row justify-content-around"><li>tag</li><li>tag2</li><li>tag3</li></ul>
+                                </div>
+                                <div class="card-body hidden-desktop text-center">
+                                    <h4 class="card-title">Card title</h4>
+                                    <ul class="tag d-flex flex-row justify-content-around"><li>tag</li><li>tag2</li><li>tag3</li></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
             </div>
         </div>
     </div>
