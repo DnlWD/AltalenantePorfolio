@@ -26,6 +26,6 @@ $(document).ready(function() {
     var cover = "'" + project[i].cover + "'";
     var name = project[i].name;
     var tag = project[i].tag;
-    $(".grid").append('<div class="grid-item ' + tag + '"><div class="card" style="background-image: url(' + cover + ')" ><img class="card-img-top" src=' + cover + ' alt=""><div class="caption d-flex justify-content-center align-items-center flex-column"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around">' + tag + '</ul></div><div class="card-body hidden-desktop text-center"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around"><li>' + tag + '</li></ul></div></div></div>');
+    $(".grid").append('<div class="grid-item ' + tag + '"><div class="card" style="background-image: url(' + cover + ')" ><div class="caption d-flex justify-content-center align-items-center flex-column"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around">' + tag + '</ul></div><div class="card-body hidden-desktop text-center"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around"><li>' + tag + '</li></ul></div></div></div>');
   }
 });
