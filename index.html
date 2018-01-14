@@ -7,26 +7,27 @@
     <meta name="description" content="portfolio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" id="favicon" href=" ">
     <!-- library css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <!-- my css -->
     <link rel="stylesheet" href="src/css/style.css" id="mystyle">
-    <title>PORTFOLIO</title>
+    <title id="titolo">PORTFOLIO</title>
 </head>
 
 <body>
     <div class="all">
-        <!-- Image and text -->
+        <!-- Barra di navigazione -->
         <nav class="navbar">
             <a class="navbar-brand" href="#">
-                <img src="https://lh3.googleusercontent.com/oKsgcsHtHu_nIkpNd-mNCAyzUD8xo68laRPOfvFuO0hqv6nDXVNNjEMmoiv9tIDgTj8=w170" width="auto"
-                    height="30" class="d-inline-block align-top" id="logo" alt="...">
+                <!-- Logo -->
+                <img src="#" width="auto" height="30" class="d-inline-block align-top" id="logo">
             </a>
         </nav>
-
+        <!-- fine Barra di navigazione -->
+        <!-- Landing -->
         <div class="container-fluid d-flex justify-content-center text-center" id="landing">
             <div class="raw d-flex justify-content-center align-items-center">
                 <div class="col align-self-center">
@@ -35,7 +36,8 @@
                 </div>
             </div>
         </div>
-
+        <!-- fine Landing -->
+        <!-- Progetti -->
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -45,7 +47,13 @@
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                    <div class="col">
+                        <div class="grid">
+                        </div>
+                    </div>
+            </div>
+            <!-- Modale Progetti -->
             <div id="proj" class="modal modfull">
                 <div class="modal-content animate-top full">
                     <div class="content">
@@ -64,10 +72,8 @@
                             <div class="row">
                                 <div class="col">
                                     <h2>DESCRIZIONE DEL PROGETTO</h2>
-                                    <p id="descrizione">Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno
-                                        subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici,
-                                        o di sequenze casuali di caratteri palesemente poco verosimili.</p>
-                                    <h3 id="ggmmyy">00.00.2000</h3>
+                                    <p id="descrizione"></p>
+                                    <h3 id="ggmmyy"></h3>
                                     <button id="more">kdk</button>
                                 </div>
                             </div>
@@ -90,26 +96,23 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col">
-                    <div class="grid">
-                    </div>
-                </div>
-            </div>
+            <!-- Fine Modale Progetti -->
         </div>
+        <!-- fine Progetti -->
     </div>
     <!-- library js -->
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+    <!-- Boostrap 4.0 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+    <!-- Lodash per i filtri -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
     <!-- my js -->
     <script src="src/js/calls.js"></script>

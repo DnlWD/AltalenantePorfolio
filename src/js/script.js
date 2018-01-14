@@ -1,6 +1,9 @@
+//Aspetto che il documento abbia caricato il JSON delle informazioni
 $( document ).ready(function() {
+  //Funzione che gestisce i Filtri dei progetti
   $('.filters-button-group button').on('click', function () {
     $('button').removeClass("is-checked");
+    //This di base seleziona il pulsante che riceve l'input (nel nostro caso il click)
     $(this).addClass("is-checked");
     var nome= $(this).text();
       if (nome != "tutti"){
@@ -12,7 +15,7 @@ $( document ).ready(function() {
         $(".grid-item").fadeIn("slow");
       }
   });
-
+  //Funzione che mostra il modale on click
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
   });
