@@ -1,4 +1,3 @@
-//Aspetto che il documento abbia caricato il JSON delle informazioni
 $( document ).ready(function() {
   //Funzione che gestisce i Filtri dei progetti
   $('.filters-button-group button').on('click', function () {

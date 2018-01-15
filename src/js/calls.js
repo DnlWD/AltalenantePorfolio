@@ -25,6 +25,17 @@ $.getJSON(URL, function (data) {
       $('#nome-proj').html(data.project[numProj].name);
       $('#descrizione').html(data.project[numProj].descrizione);
       $('#ggmmyy').html(data.project[numProj].ggmmyy);
+      var mockups = data.project[numProj].mockup
+      for (i = 0; i < mockups.length; i++) {
+        var tipologia = mockups[i].tipo;
+        var indirizzo = mockups[i].url;      
+        if (tipologia == "imgs") {
+          $('#mockup').append('<img src="' + indirizzo + '" class="img-fluid">')
+        };
+        if (tipologia == "videos") {
+          $('#mockup').append('<video controls class="img-fluid"><source src="' + indirizzo + '" type="video/mp4">')
+        }
+      }
     });
   });
 
