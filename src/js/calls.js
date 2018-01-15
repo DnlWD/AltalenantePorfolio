@@ -27,9 +27,9 @@ $.getJSON(URL, function (data) {
       $('#ggmmyy').html(data.project[numProj].ggmmyy);
       var mockups = data.project[numProj].mockup
       for (i = 0; i < mockups.length; i++) {
-        var tipologia = mockups[i].tipo;
+        var tipologia = mockups[i].type;
         var indirizzo = mockups[i].url;      
-        if (tipologia == "imgs") {
+        if (tipologia == "img") {
           $('#mockup').append('<img src="' + indirizzo + '" class="img-fluid">')
         };
         if (tipologia == "videos") {

@@ -76,10 +76,10 @@
 			"descrizione": "Oltre alle competenze avanzate di fotografia ho le capacità di realizzare foto 360° e Virtual Tour",
 			"mockup": [{
 				"type": "img",
-				"url": " "
+				"url": "src/img/dp/project/001.jpg"
 			}, {
 				"type": "img",
-				"url": " "
+				"url": "src/img/dp/project/002.jpg"
 			}],
 			"ggmmyy": "1/7/2014",
 			"cliente": "Arte Gene"
