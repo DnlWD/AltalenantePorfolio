@@ -10,8 +10,8 @@
 	"eta": 30,
 	"nazionalita": "Italiana",
 	"professione": "Interaction Designer",
-	"motto": "Fatti non pugnette",
-	"descrizione": "fatti i cazzi tuoi",
+	"motto": " ",
+	"descrizione": " ",
 	"landing": {
 		"type": "img",
 		"url": "src/img/dp/bg.png"
@@ -36,12 +36,13 @@
 			"url": " "
 		}
 	],
-	"project": [{
-			"name": "INNOVATION FERRERO",
+	"project": [
+		{
+			"name": "Flipper",
 			"id": "0",
-			"tag": ["webdesign"],
-			"cover": "src/img/dp/project/001.jpg",
-			"descrizione": "Simulazione di restyling in un gruppo di 4 persone con ruoli ben definiti, utilizzando come caso studio l’ attuale sito: www.ferrero.it. Ho realizzato un Diagramma di Gantt per gestire le tempistiche del team. Raccolto i dati per l’analisi del Brand, il comportamento sui Social e l’ analisi Competitor diretti e indiretti. Gestito l’ User Test, scegliendo le Personas, le Task e analizzando i risultati finali.",
+			"tag": ["IxD","Arduino"],
+			"cover": "src/project/000.jpg",
+			"descrizione": " ",
 			"mockup": [{
 				"type": "img",
 				"url": " "
@@ -50,37 +51,167 @@
 				"url": " "
 			}],
 			"ggmmyy": "7/7/2016",
-			"cliente": "Andrea De Rosa"
+			"cliente": "Gianluca Del Gobbo - Quasar Design University"
+		},
+		{
+			"name": "Go-Buddy",
+			"id": "1",
+			"tag": ["WebDesign"],
+			"cover": "src/project/001.jpg",
+			"descrizione": " ",
+			"mockup": [{
+				"type": "img",
+				"url": " "
+			}, {
+				"type": "img",
+				"url": " "
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Andrea De Rosa - Quasar Design University"
+		},
+		{
+			"name": "Gandossi",
+			"id": "2",
+			"tag": ["WebDesign"],
+			"cover": "src/project/002.jpg",
+			"descrizione": " ",
+			"mockup": [{
+				"type": "img",
+				"url": " "
+			}, {
+				"type": "img",
+				"url": " "
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Antonio Gandossi"
+		},
+		{
+			"name": "Maze Fun",
+			"id": "3",
+			"tag": ["MobileApp"],
+			"cover": "src/project/003.jpg",
+			"descrizione": " ",
+			"mockup": [{
+				"type": "img",
+				"url": " "
+			}, {
+				"type": "img",
+				"url": " "
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Andrea De Rosa - Quasar Design University"
+		},
+		{
+			"name": "Sono Solo Affari",
+			"id": "4",
+			"tag": ["Video", "Fotografia"],
+			"cover": "src/project/004.jpg",
+			"descrizione": "Mi sono occupato della regia del seguente cortometraggio. La storia è tratta dalla leggenda del ponte della Maddalena. Ho seguito a stretto contatto tutte le fasi, la sceneggiatura, lo storyboard e i casting. L'intero girato è stato prodotto in 3 notti e postprodotto nei 2 mesi successivi.",
+			"mockup": [{
+				"type": "videos",
+				"url": "src/project/004/000.mp4"
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Martina Meo - Quasar Design University"
+		},
+		{
+			"name": "Nikon Physical Hacking",
+			"id": "5",
+			"tag": ["Arduino"],
+			"cover": "src/project/005.jpg",
+			"descrizione": "L’Internet of Things (IoT) è una possibile evoluzione dell'uso della Rete, gli oggetti si rendono riconoscibili e acquisiscono intelligenza grazie al fatto di poter comunicare dati su se stessi e accedere ad informazioni aggregate da parte di altri. Volevo anche io connettere uno strumento a me caro, la mia macchina fotografica Nikon D3300.",
+			"mockup": [{
+				"type": "img",
+				"url": "src/project/005/000.jpg"
+			}, {
+				"type": "img",
+				"url": "src/project/005/001.jpg"
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Emanuele Tarducci - Quasar Design University"
+		},
+		{
+			"name": "INNOVATION FERRERO",
+			"id": "6",
+			"tag": ["WebDesign"],
+			"cover": "src/project/006.jpg",
+			"descrizione": "Simulazione di restyling in un gruppo di 4 persone con ruoli ben definiti, utilizzando come caso studio l’ attuale sito: <a href='www.ferrero.it'>www.ferrero.it</a>.<br>Ho realizzato un Diagramma di Gantt per gestire le tempistiche del team. Raccolto i dati per l’analisi del Brand, il comportamento sui Social e l’analisi Competitor diretti e indiretti. Gestito l’ User Test, scegliendo le Personas, le Task e analizzando i risultati finali. Partendo dalla guida di stile realizzata dai Designer ho realizzato un Framework simile a Bootstrap e una guida facilmente usufruibile dai front-end. <br><br><a href='http://www.danielepompa.com/libella-ferrero/' target='_new'>Guida</a>",
+			"mockup": [{
+				"type": "img",
+				"url": "src/project/006/000.jpg"
+			}, {
+				"type": "img",
+				"url": "src/project/006/001.jpg"
+			}],
+			"ggmmyy": "7/7/2016",
+			"cliente": "Andrea De Rosa - Quasar Design University"
+		},
+		{
+			"name": "Wheel Draw",
+			"id": "7",
+			"tag": ["IxD", "Arduino"],
+			"cover": "src/project/007.jpg",
+			"descrizione": "Wheel Draw era un robottino che tramite un pennarello disegnava quello per cui era programmato. Nella versione 2.0 ho curato l'interfaccia che permetteva di gestirlo senza dover sapere il codice, e l'unificazione generale dell'intero pacchetto di codice",
+			"mockup": [{
+				"type": "img",
+				"url": "src/project/007/000.jpg"
+			}, {
+				"type": "img",
+				"url": "src/project/007/001.jpg"
+			}],
+			"ggmmyy": "7/7/2015",
+			"cliente": "Emanuele Tarducci - Quasar Design University"
+		},
+		{
+			"name": "TOTEM INTERATTIVO",
+			"id": "8",
+			"tag": ["IxD"],
+			"cover": "src/project/008.jpg",
+			"descrizione": "Progettazione di un interfaccia per un totem interattivo di un eventuale negozio di abigliamento. Il progetto è rimasto in Wireframe per gli User Test cartacei per studiare le funzionalità e correzione di bug. <br><br>Link Invision: <br> <a href='https://invis.io/NW7L6HYZJ'>Versione Digitale</a>",
+			"mockup": [],
+			"ggmmyy": "7/7/2015",
+			"cliente": "Andrea De Rosa - Quasar Design University"
+		},
+		{
+			"name": "M.I.P - Mani In Pasta",
+			"id": "9",
+			"tag": ["WebDesign", "Grafica"],
+			"cover": "src/project/009.jpg",
+			"descrizione": "Esercitazione per la creazione di un sito web mobile first per una fittizia cooperativa sociale. Partendo dalle informazioni ho generato una sitemap, da cui ho creato il primo wireframe. Dopodichè ho analizzato i competitor, e scelto i font e i colori più adatti al messaggio della Cooperativa. Infine creato un prototypo funzionante e i comportamenti tra entrambi i componenti pronti per essere succesivamente scritti in codice<br><br> Link di Invision: <br><a href='https://invis.io/8G6LKNTRF'>Versione Desktop</a> - <a href='https://invis.io/E8A5HQUBH'>Versione Mobile</a>",
+			"mockup": [],
+			"ggmmyy": "20/02/2015",
+			"cliente": "Andrea De Rosa - Quasar Design University"
 		},
 		{
 			"name": "PANNELLI DUOMO ORVIETO",
-			"id": "1",
-			"tag": ["grafica"],
-			"cover": "src/img/dp/project/002.jpg",
+			"id": "10",
+			"tag": ["Grafica"],
+			"cover": "src/project/010.jpg",
 			"descrizione": "In occasione dei lavori di restauro della facciata del Duomo di Orvieto mi è stato commissionata la realizzazione di 8 pannelli (cm 150x100) informativi inerenti al Duomo e ai lavori eseguiti. All’interno è stato inserito l’esploso del duomo, molte macro dei mosaici realizzate grazie alla possibilità di fotografare da vicino il tutto tramite il ponteggio",
 			"mockup": [{
 				"type": "img",
-				"url": " "
+				"url": "src/project/010/000.jpg"
 			}, {
 				"type": "img",
-				"url": " "
+				"url": "src/project/010/001.jpg"
 			}],
 			"ggmmyy": "10/10/2015",
 			"cliente": "Ma.Co.Ré snc"
-		},
-		{
-			"name": "GALLERY TOUR",
-			"id": "2",
-			"tag": ["grafica", "fotografia"],
-			"cover": "src/img/dp/project/003.jpg",
-			"descrizione": "Oltre alle competenze avanzate di fotografia ho le capacità di realizzare foto 360° e Virtual Tour",
+		}, {
+			"name": "360° GALLERY TOUR",
+			"id": "11",
+			"tag": ["Grafica", "Fotografia"],
+			"cover": "src/project/011.jpg",
+			"descrizione": "Realizzazione di una stanza 360° tramite tecniche di fotografia avanzata quali HDR e stitching per realizzare una photosphere. Correzioni di postproduzioni effettuate tramite photoshop utilizzando la tecnica del Frequency Separation. Infine l'upload viene approvato ed è attualmente visitabile tramite google maps.",
 			"mockup": [{
-				"type": "img",
-				"url": "src/img/dp/project/001.jpg"
-			}, {
-				"type": "img",
-				"url": "src/img/dp/project/002.jpg"
-			}],
+					"type": "mappa",
+					"url": "https://www.google.com/maps/embed?pb=!4v1516038741931!6m8!1m7!1sxbRCAkYATkUAAAQfCTL3jg!2m2!1d42.73461083333333!2d12.73750083333334!3f119.48444431861323!4f8.359930056534807!5f0.4000000000000002"
+				},
+				{
+					"type": "img",
+					"url": "src/project/011/000.jpg"
+				}
+			],
 			"ggmmyy": "1/7/2014",
 			"cliente": "Arte Gene"
 		}

@@ -48,59 +48,59 @@
                 </div>
             </div>
             <div class="row">
-                    <div class="col">
-                        <div class="grid">
+                <div class="col">
+                    <div class="grid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fine Progetti -->
+
+        <!-- Modale Progetti -->
+        <div id="proj" class="modal modfull">
+            <div class="modal-content animate-top full">
+                <div class="content">
+                    <span class="pulsante" onclick="$('#proj').css('display', 'none');$('body').css('overflow', 'visible');$('#mockup').html('');">&times;</span>
+
+                    <!-- header -->
+                    <div class="container-fluid d-flex justify-content-center text-center header">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <h2 class="actcolor" id="nome-proj">Nome progetto</h2>
+                            </div>
                         </div>
                     </div>
-            </div>
-            <!-- Modale Progetti -->
-            <div id="proj" class="modal modfull">
-                <div class="modal-content animate-top full">
-                    <div class="content">
-                        <span class="pulsante" onclick="$('#proj').css('display', 'none');$('body').css('overflow', 'visible');$('#mockup').html('');">&times;</span>
+                    <!-- description -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>DESCRIZIONE DEL PROGETTO</h2>
+                                <p id="descrizione"></p>
 
-                        <!-- header -->
-                        <div class="container-fluid d-flex justify-content-center text-center header">
-                            <div class="raw d-flex justify-content-center align-items-center">
-                                <div class="col align-self-center">
-                                    <h2 class="actcolor" id="nome-proj">Nome progetto</h2>
-                                </div>
                             </div>
                         </div>
-                        <!-- description -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <h2>DESCRIZIONE DEL PROGETTO</h2>
-                                    <p id="descrizione"></p>
-                                    <h3 id="ggmmyy"></h3>
-                                </div>
+                    </div>
+                    <!-- exemple -->
+                    <div class="container d-flex justify-content-center text-center">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <div id="mockup"> </div>
                             </div>
                         </div>
-
-                        <!-- exemple -->
-                        <div class="container-fluid d-flex justify-content-center text-center">
-                            <div class="raw d-flex justify-content-center align-items-center">
-                                <div class="col align-self-center">
-                                    <div id="mockup"> </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- client -->
-                        <div class="container-fluid d-flex justify-content-center text-center">
-                            <div class="raw d-flex justify-content-center align-items-center">
-                                <div class="col align-self-center">
-                                    <div id="cliente"> </div>
-                                </div>
+                    </div>
+                    <!-- client -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Realizzato il: <span id="ggmmyy"></h3></span></h3>
+                                <h3>Sotto richiesta di: <span  id="cliente"></span></h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Fine Modale Progetti -->
         </div>
-        <!-- fine Progetti -->
+        <!-- Fine Modale Progetti -->
     </div>
     <!-- library js -->
     <!-- Jquery -->

@@ -11,7 +11,7 @@ $.getJSON(URL, function (data) {
     $("#landing").css('background-image', 'url(' + data.landing.url + ')');
   }
   var tags = _.union.apply(_, _.map(data.project, "tag"));
-  $(".filters-button-group").append('<button class="button is-checked" data-filter="*">tutti</button>');
+  $(".filters-button-group").append('<button class="button is-checked" data-filter="*">Tutti</button>');
   for (i = 0; i < tags.length; i++) {
     $(".filters-button-group").append('<button class="button" data-filter="' + tags[i] + '">' + tags[i] + '</button>');
   }
@@ -24,17 +24,21 @@ $.getJSON(URL, function (data) {
       $('.header').css('background-image', 'url(' + data.project[numProj].cover + ')');
       $('#nome-proj').html(data.project[numProj].name);
       $('#descrizione').html(data.project[numProj].descrizione);
+      $('#cliente').html(data.project[numProj].cliente);
       $('#ggmmyy').html(data.project[numProj].ggmmyy);
       var mockups = data.project[numProj].mockup
       for (i = 0; i < mockups.length; i++) {
         var tipologia = mockups[i].type;
         var indirizzo = mockups[i].url;      
         if (tipologia == "img") {
-          $('#mockup').append('<img src="' + indirizzo + '" class="img-fluid">')
+          $('#mockup').append('<img src="' + indirizzo + '" class="img-fluid"><br><br>')
         };
         if (tipologia == "videos") {
-          $('#mockup').append('<video controls class="img-fluid"><source src="' + indirizzo + '" type="video/mp4">')
+          $('#mockup').append('<video controls class="img-fluid"><source src="' + indirizzo + '" type="video/mp4"><br><br>')
         }
+        if (tipologia == "mappa"){
+          $('#mockup').append('<iframe src="' + indirizzo + '" class="map-frame" frameborder="0" style="border:0" allowfullscreen></iframe><br><br>')
+        }        
       }
     });
   });

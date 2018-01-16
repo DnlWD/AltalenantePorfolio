@@ -5,7 +5,7 @@ $( document ).ready(function() {
     //This di base seleziona il pulsante che riceve l'input (nel nostro caso il click)
     $(this).addClass("is-checked");
     var nome= $(this).text();
-      if (nome != "tutti"){
+      if (nome != "Tutti"){
         $(".grid-item").hide();
         $("."+nome).fadeIn("slow");
       }
