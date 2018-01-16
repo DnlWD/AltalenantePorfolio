@@ -29,21 +29,20 @@ $.getJSON(URL, function (data) {
       var mockups = data.project[numProj].mockup
       for (i = 0; i < mockups.length; i++) {
         var tipologia = mockups[i].type;
-        var indirizzo = mockups[i].url;      
+        var indirizzo = mockups[i].url;
         if (tipologia == "img") {
           $('#mockup').append('<img src="' + indirizzo + '" class="img-fluid"><br><br>')
         };
         if (tipologia == "videos") {
           $('#mockup').append('<video controls class="img-fluid"><source src="' + indirizzo + '" type="video/mp4"><br><br>')
         }
-        if (tipologia == "mappa"){
+        if (tipologia == "mappa") {
           $('#mockup').append('<iframe src="' + indirizzo + '" class="map-frame" frameborder="0" style="border:0" allowfullscreen></iframe><br><br>')
-        }        
+        }
       }
     });
   });
-
-  var project = _.map(data.project);
+  var project = data.project;
   for (i = 0; i < project.length; i++) {
     var cover = "'" + project[i].cover + "'";
     var identify = project[i].id;
@@ -52,4 +51,24 @@ $.getJSON(URL, function (data) {
     var tag = (tags.join(' ')).toString();
     $(".grid").append('<div class="grid-item ' + tag + '"><div class="card" id="' + identify + '"style="background-image: url(' + cover + ')" ><div class="caption d-flex justify-content-center align-items-center flex-column"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around">' + tag + '</ul></div><div class="card-body hidden-desktop text-center"><h4 class="card-title">' + name + '</h4><ul class="tag d-flex flex-row justify-content-around"><li>' + tag + '</li></ul></div></div></div>');
   }
+  $(document).ready(function () {
+    $('.filters-button-group button').on('click', function () {
+      $('button').removeClass("is-checked");
+      //This di base seleziona il pulsante che riceve l'input (nel nostro caso il click)
+      $(this).addClass("is-checked");
+      var nome = $(this).text();
+      if (nome != "Tutti") {
+        $(".grid-item").hide();
+        $("." + nome).fadeIn("slow");
+      } else {
+        +
+        $(".grid-item").hide();
+        $(".grid-item").fadeIn("slow");
+      }
+    });
+    //Funzione che mostra il modale on click
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').focus()
+    });
+  });
 });
